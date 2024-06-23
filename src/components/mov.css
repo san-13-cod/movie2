@@ -1,0 +1,80 @@
+.mov {
+  font-size: 2rem;
+  color: white;
+  height: 90vh;
+}
+
+.goBack {
+  background-color: #049c3c;
+  color: white;
+  padding: 0.4rem 0.7rem;
+  border: 0;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.goBack:hover {
+  background-color: #048734;
+}
+
+.moviez {
+  height: 70vh;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 6rem;
+}
+
+.right {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.right h1{
+  font-size: 3.2rem;
+  text-align: start;
+}
+
+.moviez p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+}
+
+.moviez img {
+  height: 320px;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .moviez {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .right {
+    width: 300px;
+  }
+
+  .right h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .mov{
+    height: 150vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .right h1 {
+    font-size: 2.2rem;
+  }
+}

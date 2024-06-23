@@ -1,0 +1,25 @@
+.mainMovies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.mainMovies a{
+    text-decoration: none;
+}
+
+.noMatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noMatch a{
+    text-decoration: none;
+    background-color: #1cb153;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}

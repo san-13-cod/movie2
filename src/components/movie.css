@@ -1,0 +1,118 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+    justify-content: center;
+    width: 100%;
+}
+
+.movies a{
+    text-decoration: none;
+}
+
+.movie {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.movie img {
+    width: 210px;
+    height: 310px;
+    border-radius: 0.4rem;
+    object-fit: cover;
+}
+
+.movie img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.movie h5 {
+    color: rgb(86, 82, 82);
+}
+
+.movie h4 {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nex,
+.prev {
+    background-color: #1cb153;
+    padding: 0.5rem 1.5rem;
+    border: 0;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.activePage{
+    background-color: #1cb153;
+}
+
+.remove {
+    display: none;
+}
+
+.add {
+    display: flex;
+}
+
+.spinner {
+    margin-top: 13rem;
+}
+
+.pag{
+    background-color: #1f2937;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    font-weight: 600;
+}
+
+/* .end{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/* .jump{
+    display: flex;
+}
+
+.jump input{
+    width: 3rem;
+    height: 2rem;
+    background-color: #1f2937;
+    border: 0;
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.jump input:focus{
+    outline: none;
+}
+
+.jump button{
+    background-color: #1cb153;
+    border: 0;
+    padding: 0.4rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 5rem;
+    cursor: pointer;
+} */
